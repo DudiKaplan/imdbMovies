@@ -1,0 +1,13 @@
+<mat-card class="card">
+    <button mat-icon-button color="warn" class="x">
+        <mat-icon (click)="deleteMovie()">clear</mat-icon>
+      </button>
+    <mat-card-header>
+        <a href="{{movie.movieUrl}}" target="_blank"><img src="{{movie.moviePoster}}"></a>
+      <mat-card-title >
+         <a href="{{movie.movieUrl}}" target="_blank">{{movie.movieName}}</a> 
+        </mat-card-title>
+      <mat-card-subtitle>{{movie.movieCategory}}</mat-card-subtitle>
+      <mat-card-subtitle>{{movie.movieDate | date}}</mat-card-subtitle>
+    </mat-card-header>
+</mat-card>

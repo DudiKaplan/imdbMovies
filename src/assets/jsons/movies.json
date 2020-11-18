@@ -1,0 +1,51 @@
+[
+    {
+        "movieName": "Sar Hatabaot",
+        "moviePoster": "https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "movieUrl": "https://www.imdb.com/video/vi2073101337?playlistId=tt0167260&ref_=tt_ov_vi",
+        "movieDate": "01-01-2020",
+        "movieCategory": "action"
+    },
+    {
+        "movieName": "Chhalaang",
+        "moviePoster": "https://m.media-amazon.com/images/M/MV5BODJiNGJhM2UtMDkxMC00YWUzLTllZjEtODU3MGI4N2RhNWU2XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_UY268_CR1,0,182,268_AL_.jpg",
+        "movieUrl": "https://www.imdb.com/video/vi737657113?playlistId=tt8983164&ref_=tt_ov_vi",
+        "movieDate": "2020-01-10",
+        "movieCategory": "comedy"
+    },
+    {
+        "movieName": "Borat",
+        "moviePoster": "https://m.media-amazon.com/images/M/MV5BMTk0MTQ3NDQ4Ml5BMl5BanBnXkFtZTcwOTQ3OTQzMw@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "movieUrl": "https://www.imdb.com/video/vi1712300569?playlistId=tt0443453&ref_=tt_ov_vi",
+        "movieDate": "2020-02-11",
+        "movieCategory": "comedy"
+    },
+    {
+        "movieName": "The Climb",
+        "moviePoster": "https://m.media-amazon.com/images/M/MV5BZDczYjkxYzMtMGM2Yy00MDg0LWIwZGQtMjYwZWEzNDFmMzY5XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "movieUrl": "https://www.imdb.com/video/vi872464153?playlistId=tt8637440&ref_=tt_ov_vi",
+        "movieDate": "2020-01-05",
+        "movieCategory": "comedy"
+    },
+    {
+        "movieName": "Pixels",
+        "moviePoster": "https://m.media-amazon.com/images/M/MV5BMTYxMzM4NDY5N15BMl5BanBnXkFtZTgwNzg1NTI3MzE@._V1_UY268_CR4,0,182,268_AL_.jpg",
+        "movieUrl": "https://www.imdb.com/video/vi3722883097?playlistId=tt2120120&ref_=tt_ov_vi",
+        "movieDate": "2020-11-17",
+        "movieCategory": "comedy"
+    },
+    {
+        "movieName": "mandalorian",
+        "moviePoster": "https://m.media-amazon.com/images/M/MV5BZDhlMzY0ZGItZTcyNS00ZTAxLWIyMmYtZGQ2ODg5OWZiYmJkXkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "movieUrl": "https://www.imdb.com/video/vi2314060057?playlistId=tt8111088&ref_=tt_ov_vi",
+        "movieDate": "2020-11-06",
+        "movieCategory": "action"
+    },
+    {
+        "movieName": "Sokhen vakhetzi",
+        "moviePoster": "https://m.media-amazon.com/images/M/MV5BMjA2NzEzNjIwNl5BMl5BanBnXkFtZTgwNzgwMTEzNzE@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "movieUrl": "https://www.imdb.com/video/vi789361945?playlistId=tt1489889&ref_=tt_ov_vi",
+        "movieDate": "2020-11-16",
+        "movieCategory": "action"
+    }
+]

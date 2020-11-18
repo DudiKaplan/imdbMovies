@@ -1,0 +1,45 @@
+<h1 mat-dialog-title>הוסף סרט</h1>
+
+<mat-spinner *ngIf="spinner"></mat-spinner>
+<div mat-dialog-content *ngIf="!spinner">
+  <p *ngIf="validationError.nameError != ''">{{validationError.nameError}}</p>
+  <mat-form-field style="text-align: right" >
+    <mat-label >שם הסרט</mat-label>
+    <input matInput required [maxLength]="30" [(ngModel)]="data.newMovie.movieName" (change)="clearErrors('nameError')" (keypress)="clearErrors('nameError')">
+  </mat-form-field>
+
+  <p *ngIf="validationError.categoryError != ''">{{validationError.categoryError}}</p>
+  <mat-form-field style="text-align: right">
+    <mat-label>קטגוריה</mat-label>
+    <mat-select  required [(ngModel)]="data.newMovie.movieCategory" (valueChange)="clearErrors('categoryError')" style="text-align: right">
+        <mat-option *ngFor="let category of data.categories" style="text-align: right"
+            [value]="category.categoryName">
+            {{category.categoryHeb}}
+        </mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <p *ngIf="validationError.posterError != ''">{{validationError.posterError}}</p>
+  <mat-form-field style="text-align: right">
+    <mat-label>קישור לפוסטר</mat-label>
+    <input matInput required [(ngModel)]="data.newMovie.moviePoster" (change)="clearErrors('posterError')" (keypress)="clearErrors('posterError')">
+  </mat-form-field>
+
+  <p *ngIf="validationError.urlError != ''">{{validationError.urlError}}</p>
+  <mat-form-field style="text-align: right">
+    <mat-label> imdb קישור ל </mat-label>
+    <input matInput required [(ngModel)]="data.newMovie.movieUrl" (change)="clearErrors('urlError')" (keypress)="clearErrors('urlError')">
+  </mat-form-field>
+
+  <p *ngIf="validationError.dateError != ''">{{validationError.dateError}}</p>
+  <mat-form-field style="text-align: right">
+    <mat-label>תאריך</mat-label>
+    <input matInput type="date" required [(ngModel)]="data.newMovie.movieDate" (change)="clearErrors('dateError')">
+  </mat-form-field>
+  
+  
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">ביטול</button>
+  <button mat-button (click)="onAddClick()" cdkFocusInitial>הוסף</button>
+</div>

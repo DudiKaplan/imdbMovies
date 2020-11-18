@@ -1,0 +1,25 @@
+
+<app-error-page *ngIf="!isLogin"></app-error-page>
+
+<div class="dasktop" *ngIf="isLogin">
+    <div class="menu mat-elevation-z6">
+       
+        <h2>{{user}} : ברוך הבא</h2>
+        
+        <mat-chip-list  aria-label="Color selection">
+            <span *ngFor="let c of categories" class="mat-chip">
+                <mat-chip  *ngIf="c.movies.length > 0" class="chips mat-elevation-z2" selected color="accent" (click)="updateCurrentMovies(c.categoryName)">
+                    {{c.categoryHeb}}
+                  </mat-chip>
+                  
+            </span>
+            <mat-chip  class="chips mat-elevation-z2" selected color="primary" (click)="openDialog()">הוספת סרט</mat-chip>
+            <mat-chip  class="chips mat-elevation-z2"  selected color="primary" (click)="logout()">יציאה</mat-chip>
+            
+          </mat-chip-list>
+    </div>
+
+    <div class="movies">
+        <app-movie-card *ngFor="let m of currentMovies" (deleteMovieEvnet)="deleteMovie($event)" [movie]="m"></app-movie-card>
+    </div>
+</div>

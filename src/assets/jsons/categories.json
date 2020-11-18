@@ -1,0 +1,22 @@
+[
+    {
+        "categoryName": "drama",
+        "categoryHeb": "דרמה",
+        "movies": []
+    },
+    {
+        "categoryName": "action",
+        "categoryHeb": "אקשן",
+        "movies": []
+    },
+    {
+        "categoryName": "comedy",
+        "categoryHeb": "קומדיה",
+        "movies": []
+    },
+    {
+        "categoryName": "other",
+        "categoryHeb": "אחר",
+        "movies": []
+    }
+]

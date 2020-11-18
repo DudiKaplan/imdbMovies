@@ -1,0 +1,17 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+
+html, body { height: 100%; }
+body {
+    margin: 0; 
+    font-family: 'varela_roundregular';
+    src: url('/assets/kit/varelaround-regular-webfont.woff2') format('woff2'),
+         url('/assets/kit/varelaround-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    background-image: url('/assets/images/plaid.jpg');
+    background-repeat: repeat;
+
+ }
+
+ 
